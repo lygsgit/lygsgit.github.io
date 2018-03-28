@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-03-28T03:32:51.758Z</updated>
+  <updated>2018-03-28T06:10:55.842Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>&#39;hexo带图片的blog&#39;</title>
+    <link href="http://yoursite.com/2018/03/28/hexo%E5%B8%A6%E5%9B%BE%E7%89%87%E7%9A%84blog/"/>
+    <id>http://yoursite.com/2018/03/28/hexo带图片的blog/</id>
+    <published>2018-03-28T06:07:21.000Z</published>
+    <updated>2018-03-28T06:10:55.842Z</updated>
+    
+    <content type="html"><![CDATA[<p>lady luck is smiling<br><img src="/2018/03/28/hexo带图片的blog/2018/03/28/hexo带图片的blog/big4006.jpg" title="hexo带图片的blog"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;lady luck is smiling&lt;br&gt;&lt;img src=&quot;/2018/03/28/hexo带图片的blog/2018/03/28/hexo带图片的blog/big4006.jpg&quot; title=&quot;hexo带图片的blog&quot;&gt;&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+      <category term="图片" scheme="http://yoursite.com/tags/%E5%9B%BE%E7%89%87/"/>
+    
+  </entry>
   
   <entry>
     <title>python + selenium 网页时间控件</title>
@@ -76,7 +102,7 @@
     <summary type="html">
     
       &lt;h2 id=&quot;driver-attributes&quot;&gt;&lt;a href=&quot;#driver-attributes&quot; class=&quot;headerlink&quot; title=&quot;driver attributes&quot;&gt;&lt;/a&gt;driver attributes&lt;/h2&gt;&lt;p&gt;调用说明：&lt;br&gt;driver.属性值&lt;/p&gt;
-&lt;p&gt;变量说明：&lt;br&gt;1.driver.current_url：用于获得当前页面的URL&lt;br&gt;2.driver.title：用于获取当前页面的标题&lt;br&gt;3.driver.page_source:用于获取页面html源代码&lt;br&gt;4.driver.current_window_handle:用于获取当前窗口句柄&lt;br&gt;5.driver.window_handles:用于获取所有窗口句柄&lt;br&gt;
+&lt;p&gt;变量说明：&lt;br&gt;1.driver.current_url：用于获得当前页面的URL&lt;br&gt;2.driver.title：用于获取当前页面的标题&lt;br&gt;3.driver.page_source:用于获取页面html源代码&lt;br&gt;4.driver.current_window_handle:用于获取当前窗口句柄&lt;br&gt;5.driver.window_handles:用于获取所有窗口句柄&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
