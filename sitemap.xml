@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2018/02/28/blog1_about_title/</loc>
+    
+    <lastmod>2018-03-28T03:21:08.099Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2018/02/28/hello-world(hexo_blog_start)/</loc>
+    
+    <lastmod>2018-03-28T03:19:58.597Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2018/03/06/python%20+%20selenium%20%E7%BD%91%E9%A1%B5%E6%97%B6%E9%97%B4%E6%8E%A7%E4%BB%B6/</loc>
     
-    <lastmod>2018-03-28T03:14:17.433Z</lastmod>
+    <lastmod>2018-03-28T03:18:48.637Z</lastmod>
     
   </url>
   
@@ -23,23 +37,9 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/03/06/#%20python%20+%20selenium%20%E6%93%8D%E4%BD%9C%E9%BC%A0%E6%A0%87%E5%92%8C%E9%94%AE%E7%9B%98%E4%B9%8BActionChains/</loc>
+    <loc>http://yoursite.com/2018/03/06/python%20+%20selenium%20%E6%93%8D%E4%BD%9C%E9%BC%A0%E6%A0%87%E5%92%8C%E9%94%AE%E7%9B%98%E4%B9%8BActionChains/</loc>
     
     <lastmod>2018-03-28T03:12:56.023Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/02/28/blog1/</loc>
-    
-    <lastmod>2018-03-01T02:36:49.558Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/02/28/hello-world/</loc>
-    
-    <lastmod>2018-02-28T03:49:51.316Z</lastmod>
     
   </url>
   
