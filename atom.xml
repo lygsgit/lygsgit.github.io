@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-03-28T06:10:55.842Z</updated>
+  <updated>2018-03-28T06:23:25.898Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,16 +21,16 @@
     <link href="http://yoursite.com/2018/03/28/hexo%E5%B8%A6%E5%9B%BE%E7%89%87%E7%9A%84blog/"/>
     <id>http://yoursite.com/2018/03/28/hexo带图片的blog/</id>
     <published>2018-03-28T06:07:21.000Z</published>
-    <updated>2018-03-28T06:10:55.842Z</updated>
+    <updated>2018-03-28T06:23:25.898Z</updated>
     
-    <content type="html"><![CDATA[<p>lady luck is smiling<br><img src="/2018/03/28/hexo带图片的blog/2018/03/28/hexo带图片的blog/big4006.jpg" title="hexo带图片的blog"></p>]]></content>
+    <content type="html"><![CDATA[<p>lady luck is smiling</p><h2 id="1-主页配置文件-config-yml-里的post-asset-folder-这个选项设置为true"><a href="#1-主页配置文件-config-yml-里的post-asset-folder-这个选项设置为true" class="headerlink" title="1.主页配置文件_config.yml 里的post_asset_folder:这个选项设置为true"></a>1.主页配置文件_config.yml 里的post_asset_folder:这个选项设置为true</h2><h2 id="2-第一种方法："><a href="#2-第一种方法：" class="headerlink" title="2.第一种方法："></a>2.第一种方法：</h2><h3 id=""><a href="#" class="headerlink" title=""></a><img src="/2018/03/28/hexo带图片的blog/2018/03/28/hexo带图片的blog/big4006.jpg" title="这是这张图片的图片说明"></h3><img src="/2018/03/28/hexo带图片的blog/2018/03/28/hexo带图片的blog/big4006.jpg" title="这是这张图片的图片说明"><h2 id="3-第二种方法"><a href="#3-第二种方法" class="headerlink" title="3.第二种方法"></a>3.第二种方法</h2><h3 id="-1"><a href="#-1" class="headerlink" title=""></a><img src="/2018/03/28/hexo带图片的blog/big4006.jpg" alt="这是这张图片的图片说明"></h3><p><img src="/2018/03/28/hexo带图片的blog/big4006.jpg" alt="这是这张图片的图片说明"></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;lady luck is smiling&lt;br&gt;&lt;img src=&quot;/2018/03/28/hexo带图片的blog/2018/03/28/hexo带图片的blog/big4006.jpg&quot; title=&quot;hexo带图片的blog&quot;&gt;&lt;/p&gt;
-
+        &lt;p&gt;lady luck is smiling&lt;/p&gt;
+&lt;h2 id=&quot;1-主页配置文件-config-yml-里的post-asset-folder-这个选项设置为true&quot;&gt;&lt;a href=&quot;#1-主页配置文件-config-yml-里的post-asset-folder-这
       
     
     </summary>
