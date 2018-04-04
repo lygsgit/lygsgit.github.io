@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-03-28T06:23:25.898Z</updated>
+  <updated>2018-04-04T03:16:20.361Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>&#39;windows端口占用&#39;</title>
+    <link href="http://yoursite.com/2018/04/04/windows%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8/"/>
+    <id>http://yoursite.com/2018/04/04/windows端口占用/</id>
+    <published>2018-04-04T03:07:23.000Z</published>
+    <updated>2018-04-04T03:16:20.361Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="查找端口对应的进程号"><a href="#查找端口对应的进程号" class="headerlink" title="查找端口对应的进程号"></a>查找端口对应的进程号</h1><p>netstat -aon|findstr ‘端口’        查看指定端口的占用情况<br>C:\Users\xxx&gt;netstat -ano|findstr “5000”<br>  TCP    0.0.0.0:5000           0.0.0.0:0              LISTENING       9192<br>  TCP    127.0.0.1:5000         0.0.0.0:0              LISTENING       11472<br>  TCP    127.0.0.1:5000         0.0.0.0:0              LISTENING       1644</p><h1 id="根据进程号查找进程名"><a href="#根据进程号查找进程名" class="headerlink" title="根据进程号查找进程名"></a>根据进程号查找进程名</h1><p>tasklist|findstr 9192<br>C:\Users\xxx&gt;tasklist|findstr 9192<br>python.exe                    9192 Console                    1     22,692 K</p><h1 id="根据进程名杀死进程"><a href="#根据进程名杀死进程" class="headerlink" title="根据进程名杀死进程"></a>根据进程名杀死进程</h1><p>taskkill /f /t /im python.exe<br>C:\Users\xxx&gt;taskkill /f /t /im python.exe<br>成功: 已终止 PID 11012 (属于 PID 1644 子进程)的进程。<br>成功: 已终止 PID 4276 (属于 PID 11472 子进程)的进程。<br>成功: 已终止 PID 4996 (属于 PID 9192 子进程)的进程。<br>成功: 已终止 PID 1644 (属于 PID 2532 子进程)的进程。<br>成功: 已终止 PID 11472 (属于 PID 2532 子进程)的进程。<br>成功: 已终止 PID 9192 (属于 PID 3908 子进程)的进程。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;查找端口对应的进程号&quot;&gt;&lt;a href=&quot;#查找端口对应的进程号&quot; class=&quot;headerlink&quot; title=&quot;查找端口对应的进程号&quot;&gt;&lt;/a&gt;查找端口对应的进程号&lt;/h1&gt;&lt;p&gt;netstat -aon|findstr ‘端口’        查看指定端
+      
+    
+    </summary>
+    
+    
+      <category term="-windows -端口" scheme="http://yoursite.com/tags/windows-%E7%AB%AF%E5%8F%A3/"/>
+    
+  </entry>
   
   <entry>
     <title>&#39;hexo带图片的blog&#39;</title>
@@ -60,9 +83,9 @@
     
       <category term="selenium" scheme="http://yoursite.com/tags/selenium/"/>
     
-      <category term="element" scheme="http://yoursite.com/tags/element/"/>
-    
       <category term="时间控件" scheme="http://yoursite.com/tags/%E6%97%B6%E9%97%B4%E6%8E%A7%E4%BB%B6/"/>
+    
+      <category term="element" scheme="http://yoursite.com/tags/element/"/>
     
   </entry>
   
