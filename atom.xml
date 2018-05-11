@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-09T07:34:45.630Z</updated>
+  <updated>2018-04-12T11:18:00.457Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2018/04/11/cellnumber_re/"/>
+    <id>http://yoursite.com/2018/04/11/cellnumber_re/</id>
+    <published>2018-04-11T09:38:51.121Z</published>
+    <updated>2018-04-12T11:18:00.457Z</updated>
+    
+    <content type="html"><![CDATA[<p>2018.4.11最新手机号正则表达式<br>匹配手机号码的正则表达式：^1([358][0-9]|4[579]|66|7[0135678]|9[89])[0-9]{8}$<br>目前匹配号段</p><p>中国电信号段</p><p>133、149、153、173、177、180、181、189、199<br>中国联通号段<br>130、131、132、145、155、156、166、175、176、185、186<br>中国移动号段<br>134(0-8)、135、136、137、138、139、147、150、151、152、157、158、159、178、182、183、184、187、188、198<br>其他号段<br>14号段以前为上网卡专属号段，如中国联通的是145，中国移动的是147等等。<br>虚拟运营商<br>电信：1700、1701、1702<br>移动：1703、1705、1706<br>联通：1704、1707、1708、1709、171</p><iframe name="" frameborder="0" id="x-URS-iframe" scrolling="no" style="width: 100%; height: 100%; border: none; background: none;" src="https://dl.reg.163.com/webzj/m163_2/pub/index_dl.html?wdaId=&amp;pkid=CvViHzl&amp;product=mail163"></iframe>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;2018.4.11最新手机号正则表达式&lt;br&gt;匹配手机号码的正则表达式：^1([358][0-9]|4[579]|66|7[0135678]|9[89])[0-9]{8}$&lt;br&gt;目前匹配号段&lt;/p&gt;
+&lt;p&gt;中国电信号段&lt;/p&gt;
+&lt;p&gt;133、149、153、173、177
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2018/04/11/mysql/"/>
+    <id>http://yoursite.com/2018/04/11/mysql/</id>
+    <published>2018-04-11T07:51:39.753Z</published>
+    <updated>2018-04-11T09:36:02.397Z</updated>
+    
+    <content type="html"><![CDATA[<p>mysql -u root -p<br>admin123<br>show databases;   查看所有库<br>use exerc    连接库<br>show tables;    查看表<br>create table employee(storehouse_id int, employee_id varchar(20), salary float)     创建表<br>show columns from employee;   查看表结构<br>insert into employee (storehouse_id, employee_id, salary) values(‘1001’, 120410201, 3000.0)            插入部分字段<br>insert into employee values(‘1002’, 120410202, 3000.0)        插入全部字段<br>select * from employee;<br>alter table purchaseorder add supplier_id varchar(10);    增加列<br>alter table purchaseorder modify supplier_id varchar(10);  改变列的数据结构<br>select employee_id from purchaseorder, supplier where purchaseorder.supplier_id = supplier.supplier_id and address = ‘北京市朝阳区望京西路28号’;  连表查询<br>update storehouse set area = area+100 where city = ‘北京’;   更新数据</p><p>delete from supplier where supplier_id in (select supplier.supplier_id from supplier left join purchaseorder on supplier.supplier_id = purchaseorder.supplier_id where purchaseorder.supplier_id is null);   删除+左连接</p><p>update employee set salary = salary<em>1.05 where salary &lt; (select </em> from(select avg(salary) from employee)tmp);   更新数据   或者as temp<br>坑：update employee set salary = salary*1.05 where salary &lt; (select avg(salary) from employee);   错误写法<br>ERROR 1093 (HY000): You can’t specify target table ‘employee’ for update in FROM clause<br>不能对进行查询操作的表进行update操作，也就说我们的where条件中进行了子查询，并且子查询也是针对需要进行update操作的表的，mysql不支持这种查询修改的方式</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;mysql -u root -p&lt;br&gt;admin123&lt;br&gt;show databases;   查看所有库&lt;br&gt;use exerc    连接库&lt;br&gt;show tables;    查看表&lt;br&gt;create table employee(storehouse_id
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>博客记录</title>
